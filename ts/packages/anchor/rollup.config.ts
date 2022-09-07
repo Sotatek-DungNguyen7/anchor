@@ -30,7 +30,7 @@ export default {
         "process.env.ANCHOR_BROWSER": JSON.stringify(true),
       },
     }),
-    terser(),
+    // terser(),
   ],
   external: [
     "@project-serum/borsh",
